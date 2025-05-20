@@ -57,7 +57,6 @@ def scrape_love_babbar_sheet():
                             "topic": topic,
                             "question": question_name,
                             "link": link_tag["href"],
-                            "practiced": False
                         }
                         all_problems.append(problem)
     return all_problems
